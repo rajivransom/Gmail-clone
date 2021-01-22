@@ -1,0 +1,149 @@
+*,
+*::before,
+*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Kumbh Sans', sans-serif;
+
+  
+}
+@media(min-width:800px){
+  *{
+    font-size: 16px;
+  }
+}
+a{
+  display: inline-block;
+  text-decoration: none;
+  color: #666;
+}
+a:hover{
+  color: black;
+}
+header{
+  background: white;
+  box-shadow: 0 0 4px 4px #ccc;
+  position: fixed;
+  width: 100%;
+  
+  
+}
+header img{
+  height: 30px;
+}
+header nav{
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  padding: 0 2%;
+  border-bottom: 1px solid #eee;
+  
+}
+.btn{
+  color: white;
+  background:#1a73e8;
+  color: #eee;
+  padding: 0 24px;
+  line-height: 30px;
+  border-radius: 2px;
+  letter-spacing: 0.25px;
+  z-index: 10px;
+  
+}
+.btn:hover{
+  background: #174ea6;
+  color: white;
+}
+.gmaillt{
+  font-size: 24px;
+  color: #444;
+  margin-right: auto;
+}
+footer{
+  padding: 32px;
+  background: #f8f8f8;
+}
+footer ul{
+  display: flex;
+  list-style: none;
+  margin: 32px 0px;
+
+}
+footer li{
+  margin-right: 16px;
+
+}
+footer img{
+  height: 36px;
+  
+}
+footer nav{
+  margin: 32px 0px;
+
+}
+footer select{
+  margin-left: 16px;
+  border: none;
+  background-color: #f8f8f8;
+  padding: 8px ;
+  width:160px;
+}
+.help{
+  color: rgb(255, 255, 255);
+  font-weight:600;
+  background: black;
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 99%;
+  margin-right: 8px;
+}
+/*sections*/
+section{
+  padding: 45px 24px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+
+}
+h1,h2{
+  font-size: 32px;
+  color:#222;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 24px 0;
+  letter-spacing: 1px;;
+}
+h1{
+  font-size: 42px;
+}
+
+p{
+  
+  margin: 18px;
+}
+.herosec,.susp,.expgmail,.ndtb,.takeaction,.getgmail,.devices,.orgn{
+  background: #f8f8f8;
+}
+.getgmail img{
+  height:72px;
+
+}
+.getgmail .btn{
+  line-height: 48px;
+  margin:20px;
+}
+.getgmail > * {
+  margin-bottom: 36px;
+}
+.expgmail p img{
+  height: 48px;
+}
+.herosec{
+  padding-top: 180px;
+}
