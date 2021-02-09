@@ -1,3 +1,3 @@
 # Gmail-clone
 Just some html and css.
-#open this using any deployment service!
+#open this using any editor.
